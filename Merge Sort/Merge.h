@@ -5,9 +5,9 @@
 
 class Merge {
 private:
-    void merge(std::vector<int> &v, int start, int mid, int end);
+    static void merge(std::vector<int> &v, int start, int mid, int end);
 public:
-    void sort(std::vector<int> &v, int start, int end);
+    static void sort(std::vector<int> &v, int start, int end);
 };
 
 #endif //SORTING_MERGE_H

@@ -5,9 +5,9 @@
 
 class Quick {
 private:
-    int partition(std::vector <int> &v, int start, int end);
+    static int partition(std::vector <int> &v, int start, int end);
 public:
-    void sort(std::vector <int> &v, int start, int end);
+    static void sort(std::vector <int> &v, int start, int end);
 };
 
 #endif //SORTING_QUICK_H
