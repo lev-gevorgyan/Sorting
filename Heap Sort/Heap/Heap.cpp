@@ -1,5 +1,3 @@
-#include <iostream>
-
 #include "Heap.h"
 
 int Heap::right(int i) {
