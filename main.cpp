@@ -2,7 +2,7 @@
 
 #include "Merge Sort/Merge.h"
 #include "Quick Sort/Quick.h"
-#include "Heap Sort/Heap/Heap.h"
+#include "Heap Sort/Heap.h"
 
 int main() {
 
